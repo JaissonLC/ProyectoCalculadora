@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/diseno.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="caja-video">
+        <video autoplay muted loop>
+            <source src="videos/video-galaxia.mp4" type="video/mp4">
+        </video>
+    </div>
+    <h1>Calculadora</h1>
+    <div class="caja-principal">
+        <div class="pantalla">0</div>
+        <div class="caja-numeros">
+            <div class="caja-fila">
+                <button id="borrar-todo" class="calcular-boton" onclick="">AC</button>
+                <button id="borrar" class="calcular-boton" onclick="">DEL</button>
+                <button id="porcentaje" class="calcular-boton" onclick="">%</button>
+                <button id="dividir" class="calcular-boton" onclick="">/</button>
+            </div>
+            <div class="caja-fila">
+                <button id="siete" class="calcular-boton" onclick="">7</button>
+                <button id="ocho" class="calcular-boton" onclick="">8</button>
+                <button id="nueve" class="calcular-boton" onclick="">9</button>
+                <button id="multiplicar" class="calcular-boton" onclick="">*</button>
+            </div>
+            <div class="caja-fila">
+                <button id="cuatro" class="calcular-boton" onclick="">4</button>
+                <button id="cinco" class="calcular-boton" onclick="">5</button>
+                <button id="seis" class="calcular-boton" onclick="">6</button>
+                <button id="restar" class="calcular-boton" onclick="">-</button>
+            </div>
+            <div class="caja-fila">
+                <button id="uno" class="calcular-boton" onclick="">1</button>
+                <button id="dos" class="calcular-boton" onclick="">2</button>
+                <button id="tres" class="calcular-boton" onclick="">3</button>
+                <button id="sumar" class="calcular-boton" onclick="">+</button>
+            </div>   
+            <div class="caja-fila">
+                <button id="cero" class="calcular-boton" onclick="">0</button>
+                <button id="punto" class="calcular-boton" onclick="">.</button>
+                <button id="igual" class="calcular-boton-igual" onclick="">=</button>
+            </div> 
+        </div>
+    </div>
+    <script src="js/logica.js"></script>
+</body>
+</html>
